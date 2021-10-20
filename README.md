@@ -20,3 +20,22 @@ I have no clue what these errors are but I am guessing that these are missing ja
 
 ### IE 11
 ![IE 11 Initial](images/ie11_initial.jpg)
+
+
+## Adding Polyfills 
+
+Needed to add core-js and react-app-polyfill package
+
+npm install core-js 
+npm install react-app-polyfill 
+
+and then add before the first imports: 
+
+import 'react-app-polyfill/ie9';
+import 'react-app-polyfill/stable';
+import 'core-js/stable';
+
+Then restarted the app. This seems to be doing the trick and it works on IE11 just fine: 
+
+### IE 11 working now 
+![IE 11 Working](images/ie11_working.jpg)
