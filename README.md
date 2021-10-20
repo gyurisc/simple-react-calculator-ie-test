@@ -11,6 +11,12 @@ The app itself works in Chrome. Edge looks good as well, but the buttons are lit
 
 I have no clue what these errors are but I am guessing that these are missing javascript features. Here are the initial screenshots: 
 
+### Chrome
+
 ![Chrome Initial](images/chrome_initial.jpg)
+
+### Edge 
 ![Edge Initial](images/edge_initial.jpg)
+
+### IE 11
 ![IE 11 Initial](images/ie11_initial.jpg)
