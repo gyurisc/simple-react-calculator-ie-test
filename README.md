@@ -39,3 +39,10 @@ Then restarted the app. This seems to be doing the trick and it works on IE11 ju
 
 ### IE 11 working now 
 ![IE 11 Working](images/ie11_working.jpg)
+
+Until, I do not change the compatibility to IE 10. Upper right hand corner of the F12 Developer tools. 
+Now I am getting with no further clues: 
+
+ - SCRIPT1002: Syntax error
+
+![IE 10 Not Working](images/ie10_notworking.jpg)
